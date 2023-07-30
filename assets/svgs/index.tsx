@@ -279,3 +279,22 @@ export const SendLiveMessageIcon = (props: SvgProps) => (
     />
   </Svg>
 );
+
+export const SearchAdjustIcon = (props: any) => (
+  <Svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={20}
+    height={20}
+    fill="none"
+    {...props}
+  >
+    <Path
+      stroke="#BCBCBC"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit={10}
+      strokeWidth={1.25}
+      d="M18.335 5.417h-5M5 5.417H1.668m16.667 9.166H15m-8.333 0h-5m6.667-6.25a2.917 2.917 0 1 0 0-5.833 2.917 2.917 0 0 0 0 5.833Zm3.333 9.167a2.917 2.917 0 1 0 0-5.833 2.917 2.917 0 0 0 0 5.833Z"
+    />
+  </Svg>
+);

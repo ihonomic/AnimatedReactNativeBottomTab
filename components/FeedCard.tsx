@@ -5,12 +5,14 @@ import {
   TouchableOpacity,
   Image,
   useWindowDimensions,
+  ImageBackground,
 } from "react-native";
 import React from "react";
 import { Avatar } from "react-native-paper";
 import { COLORS, SHADOWS, SIZES, TYPOGRAPHY } from "../theme";
 import { CommentIcon, DownloadIcon, LikeIcon, ShareIcon } from "../assets/svgs";
 import AvatarOnline from "./AvatarOnline";
+import { FontAwesome5 } from "@expo/vector-icons";
 
 const FeedCard = () => {
   const { height, width } = useWindowDimensions();
@@ -53,14 +55,24 @@ const FeedCard = () => {
         to this post.
       </Text>
 
-      <Image
-        source={{
-          uri: "https://picsum.photos/200",
+      <ImageBackground
+        source={{ uri: "https://source.unsplash.com/random?video" }}
+        style={{
           width: width - 30,
           height: 241,
+          justifyContent: "center",
+          alignItems: "center",
         }}
-        style={{ borderRadius: 12 }}
-      />
+        resizeMode="cover"
+        imageStyle={{ borderRadius: SIZES.xs }}
+      >
+        <FontAwesome5
+          name="play"
+          size={30}
+          color={COLORS.primary}
+          onPress={() => {}}
+        />
+      </ImageBackground>
 
       <View
         style={{

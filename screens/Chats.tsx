@@ -10,6 +10,8 @@ import {
 } from "react-native";
 import { COLORS, SIZES, TYPOGRAPHY } from "../theme";
 import RecentChatCard from "../components/RecentChatCard";
+import { TextInput } from "react-native-paper";
+import { AntDesign } from "@expo/vector-icons";
 
 const Chats = () => {
   return (
@@ -45,15 +47,25 @@ const styles = StyleSheet.create({
 
 const FilterUsers = () => {
   return (
-    <View
+    <TextInput
       style={{
-        borderRadius: SIZES.sm,
+        backgroundColor: COLORS.white,
+        borderRadius: SIZES.lg,
         borderColor: COLORS.darkGray,
         borderWidth: 2,
-        height: 35,
-        marginVertical: SIZES.sm,
-        marginHorizontal: SIZES.sm,
+        marginVertical: 23,
+        marginHorizontal: 12,
       }}
+      activeUnderlineColor={"transparent"}
+      placeholder="Search"
+      left={
+        <TextInput.Icon
+          icon={() => (
+            <AntDesign name="search1" size={25} color={COLORS.primary} />
+          )}
+        />
+      }
+      onChangeText={(text) => {}}
     />
   );
 };

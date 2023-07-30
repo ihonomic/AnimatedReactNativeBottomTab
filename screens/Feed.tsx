@@ -11,13 +11,15 @@ import {
 } from "react-native";
 import React from "react";
 import { COLORS, SIZES, TYPOGRAPHY } from "../theme";
-import { BellIcons } from "../assets/svgs";
+import { BellIcons, SearchAdjustIcon } from "../assets/svgs";
 import {
   DiscoverCard,
   FeedCard,
   LiveCard,
   PreferenceCard,
 } from "../components";
+import { TextInput } from "react-native-paper";
+import { AntDesign } from "@expo/vector-icons";
 
 const Feed = () => {
   return (
@@ -36,15 +38,25 @@ const Feed = () => {
         </View>
 
         {/* SEARCH  */}
-        <View
+
+        <TextInput
           style={{
-            borderRadius: SIZES.sm,
+            backgroundColor: COLORS.white,
+            borderRadius: SIZES.lg,
             borderColor: COLORS.darkGray,
             borderWidth: 2,
-            height: 35,
-            marginVertical: SIZES.sm,
-            marginHorizontal: SIZES.sm,
           }}
+          activeUnderlineColor={"transparent"}
+          underlineColor="transparent"
+          underlineColorAndroid="transparent"
+          placeholder="Search"
+          left={
+            <TextInput.Icon
+              icon={() => <AntDesign name="search1" size={25} />}
+            />
+          }
+          right={<TextInput.Icon icon={() => <SearchAdjustIcon />} />}
+          onChangeText={(text) => {}}
         />
 
         <ScrollView showsVerticalScrollIndicator={false}>
