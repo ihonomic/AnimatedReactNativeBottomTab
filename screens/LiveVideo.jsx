@@ -26,13 +26,13 @@ const LiveVideo = () => {
   const navigation = useNavigation();
   return (
     <ImageBackground
-      source={{ uri: "https://source.unsplash.com/random?cooking_rice" }}
+      source={require("../assets/cooking.jpg")}
       style={{ width: "100%", height: "100%" }}
       resizeMode="cover"
       imageStyle={{ flex: 1 }}
     >
-      <StatusBar barStyle="auto" />
-      {/* <StatusBar barStyle="light-content" /> */}
+
+      <StatusBar barStyle="light-content" />
 
       <SafeAreaView style={{ flex: 1 }}>
         <View
@@ -43,7 +43,7 @@ const LiveVideo = () => {
             alignItems: "center",
           }}
         >
-          <AvatarOnline image={"https://source.unsplash.com/random?brand"} />
+          <AvatarOnline image={require("../assets/person2.jpg")} />
           <View style={styles.liveBadge}>
             <Text style={[TYPOGRAPHY.h2, { color: COLORS.white }]}>
               LIVE • 00:41
@@ -116,7 +116,7 @@ const Onliner = () => {
         marginVertical: SIZES.sm,
       }}
     >
-      <AvatarOnline image={"https://source.unsplash.com/random?brand"} />
+      <AvatarOnline image={require("../assets/person3.jpg")} />
       <View style={{ marginLeft: SIZES.xxs }}>
         <Text style={[TYPOGRAPHY.h2, { color: COLORS.white }]}>
           crazyelephant681

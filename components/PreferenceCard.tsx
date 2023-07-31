@@ -13,7 +13,7 @@ const PreferenceCard = ({ item }: { item: any }) => {
   return (
     <View style={styles.bg}>
       <ImageBackground
-        source={{ uri: item.image }}
+        source={item.image}
         style={{ width: "100%", height: 104 }}
         resizeMode="cover"
         imageStyle={{

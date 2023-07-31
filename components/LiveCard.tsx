@@ -23,7 +23,7 @@ const LiveCard = ({ item }: { item: any }) => {
           padding: SIZES.xxs,
         }}
       >
-        <AvatarOnline image={"https://source.unsplash.com/random?lady"} />
+        <AvatarOnline image={require("../assets/person2.jpg")} />
         <View style={{ marginLeft: SIZES.md }}>
           <Text
             style={[
@@ -40,7 +40,7 @@ const LiveCard = ({ item }: { item: any }) => {
       </View>
 
       <ImageBackground
-        source={{ uri: "https://picsum.photos/200" }}
+        source={require("../assets/market.jpg")}
         style={{ width: "100%", height: 180 }}
         resizeMode="cover"
         imageStyle={{}}

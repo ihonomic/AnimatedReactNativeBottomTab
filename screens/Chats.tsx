@@ -73,7 +73,7 @@ const FilterUsers = () => {
 const data = [
   {
     id: "1",
-    image: "https://source.unsplash.com/random?girl",
+    image: require("../assets/person3.jpg"),
     name: "Lagatha_24",
     last_message: "Yes, I'll be available by 3pm",
     time: "06:57 am",
@@ -82,7 +82,7 @@ const data = [
   },
   {
     id: "2",
-    image: "https://source.unsplash.com/random?boy",
+    image: require("../assets/person3.jpg"),
     name: "silvercon34",
     last_message: "americano",
     time: "10:32 pm",
@@ -91,7 +91,7 @@ const data = [
   },
   {
     id: "3",
-    image: "https://source.unsplash.com/random?bike",
+    image: require("../assets/person3.jpg"),
     name: "whitefish664",
     last_message: "Yeap, Go home",
     time: "12:32 pm",
@@ -100,7 +100,7 @@ const data = [
   },
   {
     id: "4",
-    image: "https://source.unsplash.com/random?boy",
+    image: require("../assets/person3.jpg"),
     name: "Erik_18",
     last_message: "Sure, let's meet at the park!",
     time: "09:30 am",
@@ -109,7 +109,7 @@ const data = [
   },
   {
     id: "5",
-    image: "https://source.unsplash.com/random?woman",
+    image: require("../assets/person3.jpg"),
     name: "Anna_33",
     last_message: "I'll bring some snacks.",
     time: "10:45 am",
@@ -119,7 +119,7 @@ const data = [
 
   {
     id: "32",
-    image: "https://source.unsplash.com/random?girl",
+    image: require("../assets/person3.jpg"),
     name: "Lagatha_24",
     last_message: "Yes, I'll be available by 3pm",
     time: "06:57 am",
@@ -128,7 +128,7 @@ const data = [
   },
   {
     id: "28",
-    image: "https://source.unsplash.com/random?boy",
+    image: require("../assets/person3.jpg"),
     name: "Erik_18",
     last_message: "Sure, let's meet at the park!",
     time: "09:30 am",
@@ -137,7 +137,7 @@ const data = [
   },
   {
     id: "34",
-    image: "https://source.unsplash.com/random?woman",
+    image: require("../assets/person3.jpg"),
     name: "Anna_33",
     last_message: "I'll bring some snacks.",
     time: "10:45 am",
@@ -146,7 +146,7 @@ const data = [
   },
   {
     id: "45",
-    image: "https://source.unsplash.com/random?man",
+    image: require("../assets/person3.jpg"),
     name: "John_29",
     last_message: "See you at the party tonight!",
     time: "12:15 pm",
@@ -155,7 +155,7 @@ const data = [
   },
   {
     id: "58",
-    image: "https://source.unsplash.com/random?girl",
+    image: require("../assets/person3.jpg"),
     name: "Sophia_22",
     last_message: "I'm looking forward to our trip!",
     time: "02:00 pm",
@@ -164,7 +164,7 @@ const data = [
   },
   {
     id: "6",
-    image: "https://source.unsplash.com/random?boy",
+    image: require("../assets/person3.jpg"),
     name: "Alex_25",
     last_message: "Let's have a video call later.",
     time: "03:20 pm",
@@ -173,7 +173,7 @@ const data = [
   },
   {
     id: "7",
-    image: "https://source.unsplash.com/random?woman",
+    image: require("../assets/person3.jpg"),
     name: "Emily_27",
     last_message: "Don't forget to bring the documents!",
     time: "04:10 pm",
@@ -182,7 +182,7 @@ const data = [
   },
   {
     id: "8",
-    image: "https://source.unsplash.com/random?man",
+    image: require("../assets/person3.jpg"),
     name: "Michael_31",
     last_message: "Can you please pick up some groceries?",
     time: "05:45 pm",
@@ -200,7 +200,7 @@ const data = [
   },
   {
     id: "10",
-    image: "https://source.unsplash.com/random?boy",
+    image: require("../assets/person3.jpg"),
     name: "Daniel_26",
     last_message: "Sorry, I can't make it to the meeting.",
     time: "08:15 pm",
@@ -209,7 +209,7 @@ const data = [
   },
   {
     id: "11",
-    image: "https://source.unsplash.com/random?woman",
+    image: require("../assets/person3.jpg"),
     name: "Olivia_30",
     last_message: "Let's catch up over coffee tomorrow.",
     time: "09:05 pm",
@@ -218,7 +218,7 @@ const data = [
   },
   {
     id: "12",
-    image: "https://source.unsplash.com/random?man",
+    image: require("../assets/person3.jpg"),
     name: "David_28",
     last_message: "Thanks for your help!",
     time: "10:20 pm",
@@ -227,7 +227,7 @@ const data = [
   },
   {
     id: "13",
-    image: "https://source.unsplash.com/random?girl",
+    image: require("../assets/person3.jpg"),
     name: "Ava_23",
     last_message: "Check out this cool website!",
     time: "11:30 pm",
@@ -236,7 +236,7 @@ const data = [
   },
   {
     id: "14",
-    image: "https://source.unsplash.com/random?boy",
+    image: require("../assets/person3.jpg"),
     name: "Noah_20",
     last_message: "What's the plan for the weekend?",
     time: "11:59 pm",
@@ -245,7 +245,7 @@ const data = [
   },
   {
     id: "15",
-    image: "https://source.unsplash.com/random?woman",
+    image: require("../assets/person3.jpg"),
     name: "Isabella_35",
     last_message: "I'm excited about the concert!",
     time: "12:40 am",
@@ -254,7 +254,7 @@ const data = [
   },
   {
     id: "16",
-    image: "https://source.unsplash.com/random?man",
+    image: require("../assets/person3.jpg"),
     name: "James_32",
     last_message: "Have a safe trip!",
     time: "01:15 am",

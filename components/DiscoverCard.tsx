@@ -12,7 +12,7 @@ const DiscoverCard = ({ item }: { item: any }) => {
   return (
     <TouchableOpacity style={styles.bg} activeOpacity={0.6}>
       <ImageBackground
-        source={{ uri: item.image }}
+        source={item.image}
         style={{ width: "100%", height: "100%" }}
         resizeMode="cover"
         imageStyle={{ borderRadius: SIZES.xs }}

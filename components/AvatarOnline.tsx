@@ -5,7 +5,7 @@ import { SIZES, TYPOGRAPHY } from "../theme";
 const AvatarOnline = ({ image }: { image: string }) => {
   return (
     <View>
-      <Avatar.Image size={35} source={{ uri: image }} />
+      <Avatar.Image size={35} source={image} />
       <View style={styles.online} />
     </View>
   );

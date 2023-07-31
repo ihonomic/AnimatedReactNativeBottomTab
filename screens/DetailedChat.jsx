@@ -191,7 +191,7 @@ const CenterChatHeader = ({
         left: -70,
       }}
     >
-      <AvatarOnline image={group_photo} />
+      <AvatarOnline image={require("../assets/person3.jpg")} />
       <View style={{ marginLeft: SIZES.xxs }}>
         <Text numberOfLines={1} style={{ ...TYPOGRAPHY.h2 }}>
           {group_name}

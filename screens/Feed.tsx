@@ -171,20 +171,20 @@ const discoverData = [
     name: "Sammy Zayn",
     age: "22",
     city: "SOUTHAMPTON",
-    image: "https://source.unsplash.com/random?man",
+    image: require("../assets/person2.jpg"),
   },
   {
     id: "2",
     name: "Clara simps",
     age: "25",
     city: "LONDON",
-    image: "https://source.unsplash.com/random?woman",
+    image: require("../assets/person1.jpg"),
   },
   {
     id: "3",
     name: "Joshzy",
     age: "19",
     city: "FLORIDA",
-    image: "https://source.unsplash.com/random?rapper",
+    image: require("../assets/musician.jpg"),
   },
 ];

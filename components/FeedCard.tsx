@@ -26,9 +26,7 @@ const FeedCard = () => {
         }}
       >
         <View style={{ flexDirection: "row", alignItems: "center" }}>
-          <AvatarOnline
-            image={"https://source.unsplash.com/random?default_picture"}
-          />
+          <AvatarOnline image={require("../assets/person2.jpg")} />
           <View style={{ marginLeft: SIZES.md }}>
             <Text style={[TYPOGRAPHY.h2]}>Lagatha_24</Text>
             <Text style={[TYPOGRAPHY.p, { color: "#6E6E6E" }]}>
@@ -56,7 +54,7 @@ const FeedCard = () => {
       </Text>
 
       <ImageBackground
-        source={{ uri: "https://source.unsplash.com/random?video" }}
+        source={require("../assets/cake.jpg")}
         style={{
           width: width - 30,
           height: 241,
